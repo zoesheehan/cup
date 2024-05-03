@@ -1,0 +1,21 @@
+.cup {
+    width: 200px;
+    height: 300px;
+    border: 2px solid #000;
+    position: relative;
+    overflow: hidden;
+    margin: 20px auto;
+}
+
+.liquid {
+    width: 100%;
+    height: 50%; /* Initial level at 50% */
+    background-color: blue;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+button {
+    margin-top: 10px;
+}
